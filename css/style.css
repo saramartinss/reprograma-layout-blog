@@ -10,29 +10,29 @@ body {
     border-color: rgb(228, 228, 228);
 }
 
-.menu {
-    border-bottom: 1px solid rgb(184, 182, 182);
-    width: 850px;
-    font-size: 14px;
+.topbar img {
+    margin-right: 350px;
 }
 
-.menu p {
-    display: inline-block;
-    margin-right: 360px;
-    color: #9013FE;
-}
-
-.menu span {
-    font-weight: bold;
-}
-
-.menu a {
-    display: inline-block;
+a {
     text-decoration: none;
-    text-align: right;
-    margin-left: 20px;
-    color: #4A4A4A;
+    color: #7e7e7e;
 }
+
+.menu {
+    display: inline-block;
+}
+
+.menu__item {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
+
+hr {
+    border: 1px solid rgb(228, 228, 228);
+}
+
 
 .header__titulo {
     color: #9013FE;
