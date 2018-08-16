@@ -1,29 +1,27 @@
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    width: 850px;
+    width: 80%;
     height: 650px;
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
-    padding: 30px;
-    border-color: rgb(228, 228, 228);
 }
 
 .topbar {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .15)
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
 }
-
- .topbar img {
-    margin-right: 350px;
-} 
 
 a {
     text-decoration: none;
-    color: #7e7e7e;
 }
 
 .menu {
     display: inline-block;
+    margin-left: 400px;
 }
 
 .menu__item {
@@ -32,16 +30,16 @@ a {
     margin-right: 30px;
 }
 
-hr {
-    border: 1px solid rgb(228, 228, 228);
+.menu__item a{
+    color: grey;
+    text-transform: uppercase;
 }
-
 
 .header__titulo {
     color: #9013FE;
     font-size: 16px;
     text-align: center;
-    margin: 20px auto 30px auto;
+    margin: 100px auto 30px auto;
 }
 
 .lateral {
