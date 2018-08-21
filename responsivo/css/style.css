@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.menu__item {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu__item a{
+    color: grey;
+    text-transform: uppercase;
+}
+
+
+.header__titulo {
+    color: #9013FE;
+    font-size: 16px;
+    text-align: center;
+    margin: 100px auto 30px auto;
+}
+
+.lateral {
+    display: inline-block;
+    width: 25%;
+    height: 512px;
+    margin-right: 40px;
+    font-size: 10px;
+    border: 1px solid rgb(184, 182, 182);
+    padding: 30px;
+    color: #4A4A4A;
+    box-sizing: border-box;
+}
+
+.lateral {
+    font-weight: lighter;
+    vertical-align: top;
+
+}
+
+.lateral h3 {
+    font-size: 14px;
+}
+.lateral h4 {
+    font-size: 12px;
+}
+
+.principal {
+    display: inline-block;
+    width: 65%;
+    height: 580px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.principal__conteudo {
+    color: rgb(65, 65, 65);
+    margin-top: -35px;
+}
+
+.principal__conteudo h1 {
+    font-size: 36px;
+}
+
+.principal__conteudo p {
+    font-size: 24px;
+}
+.principal__img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+    .lateral, .menu {
+        display: none;
+    }
+
+    .principal__conteudo h1{
+        font-size: 22px;
+    }
+
+    .principal__conteudo p{
+        font-size: 16px;
+    }
+
+    .topbar {
+        margin-top: 50px;
+    }
+}
